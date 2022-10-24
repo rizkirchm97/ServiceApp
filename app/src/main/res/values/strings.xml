@@ -2,6 +2,7 @@
     <string name="app_name">Sentuh RunService App</string>
     <string name="start_service">Start Service</string>
     <string name="service_result">Service Result</string>
+    <string name="gotoService">Go to service</string>
     <string name="counting">0</string>
     <string name="back_to_main">Back to Main</string>
     <!-- TODO: Remove or change this placeholder text -->

@@ -41,9 +41,6 @@ class CountingActivity : AppCompatActivity(), BoundService.ServiceCallback {
         binding = ActivityCountingBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-
-        binding.countingBtn.isEnabled = false
-
         val serviceIntent = Intent(this, BoundService::class.java)
         serviceIntent.putExtra(EXTRA_INTENT, "Bound Service")
         bindService(serviceIntent, connection, BIND_AUTO_CREATE)

@@ -26,7 +26,7 @@ class MainActivity : AppCompatActivity(), BoundService.ServiceCallback {
     }
 
     override fun onServiceCallback(data: String) {
-        binding.mainTv.text = data
+
     }
 
 }
